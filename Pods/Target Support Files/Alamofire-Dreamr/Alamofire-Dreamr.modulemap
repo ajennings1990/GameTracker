@@ -1,0 +1,6 @@
+framework module AlamofireDreamr {
+  umbrella header "Alamofire-Dreamr-umbrella.h"
+
+  export *
+  module * { export * }
+}
