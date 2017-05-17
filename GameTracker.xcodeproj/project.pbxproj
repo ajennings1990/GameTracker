@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		492E052F1ECCB558008E7C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E052E1ECCB558008E7C8B /* AppDelegate.swift */; };
 		492E05311ECCB558008E7C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05301ECCB558008E7C8B /* ViewController.swift */; };
-		492E05341ECCB558008E7C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492E05321ECCB558008E7C8B /* Main.storyboard */; };
 		492E05361ECCB558008E7C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492E05351ECCB558008E7C8B /* Assets.xcassets */; };
 		492E05391ECCB558008E7C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492E05371ECCB558008E7C8B /* LaunchScreen.storyboard */; };
 		492E05441ECCB558008E7C8B /* GameTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05431ECCB558008E7C8B /* GameTrackerTests.swift */; };
 		492E054F1ECCB558008E7C8B /* GameTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E054E1ECCB558008E7C8B /* GameTrackerUITests.swift */; };
 		492E055F1ECCB65D008E7C8B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 492E055E1ECCB65D008E7C8B /* Podfile */; };
+		492E05691ECCB7D9008E7C8B /* Scene1Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05611ECCB7D9008E7C8B /* Scene1Configurator.swift */; };
+		492E056A1ECCB7D9008E7C8B /* Scene1Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05621ECCB7D9008E7C8B /* Scene1Interactor.swift */; };
+		492E056B1ECCB7D9008E7C8B /* Scene1Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05631ECCB7D9008E7C8B /* Scene1Presenter.swift */; };
+		492E056C1ECCB7D9008E7C8B /* Scene1Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05641ECCB7D9008E7C8B /* Scene1Router.swift */; };
+		492E056D1ECCB7D9008E7C8B /* Scene1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05651ECCB7D9008E7C8B /* Scene1View.swift */; };
+		492E056E1ECCB7D9008E7C8B /* Scene1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05661ECCB7D9008E7C8B /* Scene1ViewController.swift */; };
+		492E056F1ECCB7D9008E7C8B /* Scene1ViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05671ECCB7D9008E7C8B /* Scene1ViewModal.swift */; };
+		492E05701ECCB7D9008E7C8B /* Scene1Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05681ECCB7D9008E7C8B /* Scene1Worker.swift */; };
+		492E05751ECCB870008E7C8B /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05741ECCB870008E7C8B /* KeychainService.swift */; };
+		492E05791ECCB8C2008E7C8B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E05781ECCB8C2008E7C8B /* Router.swift */; };
 		931CEA751B0E9EFBAEBEB726 /* Pods_GameTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DF529E9F692B73286FBB1E /* Pods_GameTracker.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +49,6 @@
 		492E052B1ECCB558008E7C8B /* GameTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492E052E1ECCB558008E7C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		492E05301ECCB558008E7C8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		492E05331ECCB558008E7C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		492E05351ECCB558008E7C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492E05381ECCB558008E7C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492E053A1ECCB558008E7C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +59,16 @@
 		492E054E1ECCB558008E7C8B /* GameTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTrackerUITests.swift; sourceTree = "<group>"; };
 		492E05501ECCB558008E7C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		492E055E1ECCB65D008E7C8B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		492E05611ECCB7D9008E7C8B /* Scene1Configurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene1Configurator.swift; sourceTree = "<group>"; };
+		492E05621ECCB7D9008E7C8B /* Scene1Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene1Interactor.swift; sourceTree = "<group>"; };
+		492E05631ECCB7D9008E7C8B /* Scene1Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene1Presenter.swift; sourceTree = "<group>"; };
+		492E05641ECCB7D9008E7C8B /* Scene1Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene1Router.swift; sourceTree = "<group>"; };
+		492E05651ECCB7D9008E7C8B /* Scene1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene1View.swift; sourceTree = "<group>"; };
+		492E05661ECCB7D9008E7C8B /* Scene1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene1ViewController.swift; sourceTree = "<group>"; };
+		492E05671ECCB7D9008E7C8B /* Scene1ViewModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene1ViewModal.swift; sourceTree = "<group>"; };
+		492E05681ECCB7D9008E7C8B /* Scene1Worker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene1Worker.swift; sourceTree = "<group>"; };
+		492E05741ECCB870008E7C8B /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		492E05781ECCB8C2008E7C8B /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		91DF529E9F692B73286FBB1E /* Pods_GameTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7C56A4F6E2F2611E3FAC6C /* Pods-GameTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameTracker/Pods-GameTracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,9 +132,11 @@
 		492E052D1ECCB558008E7C8B /* GameTracker */ = {
 			isa = PBXGroup;
 			children = (
+				492E05761ECCB8A5008E7C8B /* Services */,
+				492E05721ECCB839008E7C8B /* Common */,
+				492E05711ECCB832008E7C8B /* Main */,
 				492E052E1ECCB558008E7C8B /* AppDelegate.swift */,
 				492E05301ECCB558008E7C8B /* ViewController.swift */,
-				492E05321ECCB558008E7C8B /* Main.storyboard */,
 				492E05351ECCB558008E7C8B /* Assets.xcassets */,
 				492E05371ECCB558008E7C8B /* LaunchScreen.storyboard */,
 				492E053A1ECCB558008E7C8B /* Info.plist */,
@@ -141,6 +161,61 @@
 				492E05501ECCB558008E7C8B /* Info.plist */,
 			);
 			path = GameTrackerUITests;
+			sourceTree = "<group>";
+		};
+		492E05601ECCB7CA008E7C8B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				492E05611ECCB7D9008E7C8B /* Scene1Configurator.swift */,
+				492E05621ECCB7D9008E7C8B /* Scene1Interactor.swift */,
+				492E05631ECCB7D9008E7C8B /* Scene1Presenter.swift */,
+				492E05641ECCB7D9008E7C8B /* Scene1Router.swift */,
+				492E05651ECCB7D9008E7C8B /* Scene1View.swift */,
+				492E05661ECCB7D9008E7C8B /* Scene1ViewController.swift */,
+				492E05671ECCB7D9008E7C8B /* Scene1ViewModal.swift */,
+				492E05681ECCB7D9008E7C8B /* Scene1Worker.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		492E05711ECCB832008E7C8B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				492E05601ECCB7CA008E7C8B /* Home */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		492E05721ECCB839008E7C8B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				492E05731ECCB869008E7C8B /* Keychain */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		492E05731ECCB869008E7C8B /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				492E05741ECCB870008E7C8B /* KeychainService.swift */,
+			);
+			name = Keychain;
+			sourceTree = "<group>";
+		};
+		492E05761ECCB8A5008E7C8B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				492E05771ECCB8B8008E7C8B /* Network */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		492E05771ECCB8B8008E7C8B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				492E05781ECCB8C2008E7C8B /* Router.swift */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 		FAF1D6730EF6F6FBC261586D /* Pods */ = {
@@ -265,7 +340,6 @@
 				492E05391ECCB558008E7C8B /* LaunchScreen.storyboard in Resources */,
 				492E05361ECCB558008E7C8B /* Assets.xcassets in Resources */,
 				492E055F1ECCB65D008E7C8B /* Podfile in Resources */,
-				492E05341ECCB558008E7C8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +413,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				492E05311ECCB558008E7C8B /* ViewController.swift in Sources */,
+				492E056D1ECCB7D9008E7C8B /* Scene1View.swift in Sources */,
+				492E056C1ECCB7D9008E7C8B /* Scene1Router.swift in Sources */,
+				492E056F1ECCB7D9008E7C8B /* Scene1ViewModal.swift in Sources */,
+				492E05791ECCB8C2008E7C8B /* Router.swift in Sources */,
+				492E05751ECCB870008E7C8B /* KeychainService.swift in Sources */,
+				492E056E1ECCB7D9008E7C8B /* Scene1ViewController.swift in Sources */,
+				492E05691ECCB7D9008E7C8B /* Scene1Configurator.swift in Sources */,
+				492E05701ECCB7D9008E7C8B /* Scene1Worker.swift in Sources */,
+				492E056B1ECCB7D9008E7C8B /* Scene1Presenter.swift in Sources */,
 				492E052F1ECCB558008E7C8B /* AppDelegate.swift in Sources */,
+				492E056A1ECCB7D9008E7C8B /* Scene1Interactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,14 +459,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		492E05321ECCB558008E7C8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				492E05331ECCB558008E7C8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		492E05371ECCB558008E7C8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -588,6 +664,7 @@
 				492E05551ECCB558008E7C8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		492E05561ECCB558008E7C8B /* Build configuration list for PBXNativeTarget "GameTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +673,7 @@
 				492E05581ECCB558008E7C8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		492E05591ECCB558008E7C8B /* Build configuration list for PBXNativeTarget "GameTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +682,7 @@
 				492E055B1ECCB558008E7C8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
