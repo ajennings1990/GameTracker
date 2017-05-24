@@ -17,15 +17,22 @@ public struct PaginationInfo: Decodable {
   public let nextURL: URL?
   /// Whether this is the last page or not
   public let isLastPage: Bool
+  /// The page number of this data
+  public let page: Int
 
-  init(total: Int, nextURL: URL?, isLastPage: Bool) {
+  init(total: Int, page: Int, nextURL: URL?, isLastPage: Bool) {
     self.total = total
+    self.page = page
     self.nextURL = nextURL
     self.isLastPage = isLastPage
   }
 
   public init?(json: JSON) {
+    guard let page: Int = json[Key.Payload.currentPage].int else {
+      return nil
+    }
     total = json[Key.Payload.total].int ?? 0
+    self.page = page
     nextURL = json[Key.Payload.nextURL].url
 
     let thisPage = json[Key.Payload.currentPage].int ?? 0

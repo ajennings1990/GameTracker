@@ -14,7 +14,7 @@ target 'GameTracker' do
   # Pods for GameTracker
   # Define explicit versions to prevent future compatibility issues
   pod 'SwiftLint', '0.18.1'
-  pod 'Alamofire-Dreamr', '0.2.0'
+  pod 'Alamofire-Dreamr'
   pod 'KeychainAccess' , '3.0.2'
   pod 'Fabric', '1.6.11'
   pod 'Crashlytics', '3.8.4'
@@ -23,6 +23,7 @@ target 'GameTracker' do
   pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
   pod 'BubbleTransition', '2.0'
   pod 'CHIPageControl/Jaloro', '0.1.3'
+  pod 'SwipeCellKit'
 
   # Pods for BIYTests
 #target 'BIYTests' do

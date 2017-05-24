@@ -1,8 +1,8 @@
 PODS:
   - Alamofire (4.4.0)
-  - Alamofire-Dreamr (0.2.0):
-    - Alamofire-Dreamr/Core (= 0.2.0)
-  - Alamofire-Dreamr/Core (0.2.0):
+  - Alamofire-Dreamr (0.3.0):
+    - Alamofire-Dreamr/Core (= 0.3.0)
+  - Alamofire-Dreamr/Core (0.3.0):
     - Alamofire (~> 4.1)
     - SwiftyJSON (~> 3.1)
   - BubbleTransition (2.0.0)
@@ -18,9 +18,10 @@ PODS:
   - SnapKit (3.2.0)
   - SwiftLint (0.18.1)
   - SwiftyJSON (3.1.4)
+  - SwipeCellKit (1.8.0)
 
 DEPENDENCIES:
-  - Alamofire-Dreamr (= 0.2.0)
+  - Alamofire-Dreamr
   - BubbleTransition (= 2.0)
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
   - CHIPageControl/Jaloro (= 0.1.3)
@@ -30,6 +31,7 @@ DEPENDENCIES:
   - Kingfisher (= 3.7.1)
   - SnapKit (= 3.2.0)
   - SwiftLint (= 0.18.1)
+  - SwipeCellKit
 
 EXTERNAL SOURCES:
   ChameleonFramework:
@@ -42,7 +44,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  Alamofire-Dreamr: 2fff961b6626556374ab32c57505cfecaa4f6093
+  Alamofire-Dreamr: e440fd7471bd5939685b09211042aec05d9fedb1
   BubbleTransition: bdb9d71993b8d3513008e2dda6bada1ddad25d4f
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   CHIPageControl: 2d3a0edacd7e3bc113bc88cbf187ba8f0b045548
@@ -53,7 +55,8 @@ SPEC CHECKSUMS:
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwipeCellKit: 01a58bf7e63d5df09aedd161828833944c4c333c
 
-PODFILE CHECKSUM: ac67c0493a37bfd370d5d1b90ed83e5b0ab70cf7
+PODFILE CHECKSUM: 9db5838ee98530cdb214876ffdf2fe728b4a714e
 
 COCOAPODS: 1.2.1
