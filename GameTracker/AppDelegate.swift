@@ -29,12 +29,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       return true
     }
     
-    let rootViewController = UIViewController()
+    var rootViewController = UIViewController()
     
     if KeychainService().token() != nil {
-//      rootViewController = TabBarController()
+      rootViewController = Scene1ViewController()
     } else {
-//      rootViewController = OpeningViewController()
+      rootViewController = Scene1ViewController()
     }
     
     window?.rootViewController = UINavigationController(rootViewController: rootViewController)

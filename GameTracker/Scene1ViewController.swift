@@ -41,7 +41,7 @@ class Scene1ViewController: UIViewController, Scene1ViewControllerInput
   
   // MARK: - Event handling
   
-  func doSomethingOnLoad()
+  func doSomethingOnLoad()1
   {
     // NOTE: Ask the Interactor to do some work
     
